@@ -38,7 +38,7 @@ Below are three key prototypes that demonstrate different aspects of the project
 > **Language Model**: OpenAI GPT via API
 
 📹 **Video**: [Watch](./videos/prompt_controlled_drone.mp4)  
-💻 **Script**: [`prompt_controlled_drone.py`](./code/prompt_controlled_drone.py)
+💻 **Script**: [`prompt_controlled_drone.py`](./code/telloDrone5.py)
 
 **Description**:  
 A real-world implementation where a Tello drone is controlled via natural language prompts such as:
@@ -53,7 +53,6 @@ A real-world implementation where a Tello drone is controlled via natural langua
 > Based on Microsoft’s open-source [PromptCraft-Robotics](https://github.com/microsoft/PromptCraft-Robotics/tree/main/chatgpt_airsim)
 
 📹 **Video**: [Watch](./videos/airsim_gpt_demo.mp4)  
-💻 **Script**: [`airsim_gpt_test.py`](./code/airsim_gpt_test.py)
 
 **Description**:  
 We tested the integration of GPT with Microsoft's **AirSim** drone simulation environment. This forms a testbed for simulating and refining prompt-based drone behavior before real-world deployment.
@@ -63,7 +62,7 @@ We tested the integration of GPT with Microsoft's **AirSim** drone simulation en
 ### 3. BLIP (VLP) Integration Test
 
 📹 **Video**: [Watch](./videos/blip_test.mp4)  
-💻 **Script**: [`blip_environment_understanding.py`](./code/blip_environment_understanding.py)
+💻 **Script**: [`blip_environment_understanding.py`](./code/blip_droidcam.py)
 
 **Description**:  
 BLIP (Bootstrapped Language-Image Pretraining) was tested to evaluate its capability to understand drone surroundings via images. This is a **critical module** planned to be embedded in the drone for contextual awareness and decision-making.
