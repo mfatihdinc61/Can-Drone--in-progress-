@@ -62,7 +62,7 @@ We tested the integration of GPT with Microsoft's **AirSim** drone simulation en
 ### 3. BLIP (VLP) Integration Test
 
 📹 **Video**: [Watch](./videos/blip_test.mp4)  
-💻 **Script**: [`blip_environment_understanding.py`](./code/blip_droidcam.py)
+💻 **Script**: [`blip_droidcam.py`](./code/blip_droidcam.py)
 
 **Description**:  
 BLIP (Bootstrapped Language-Image Pretraining) was tested to evaluate its capability to understand drone surroundings via images. This is a **critical module** planned to be embedded in the drone for contextual awareness and decision-making.
