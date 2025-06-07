@@ -262,7 +262,7 @@ v-5
 #
 # # Initialize OpenAI API
 # # openai.api_key = 'your_openai_api_key'
-# openai.api_key = "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"
+# openai.api_key = ":)"
 #
 #
 # # Initialize the BLIP model and processor for image captioning
